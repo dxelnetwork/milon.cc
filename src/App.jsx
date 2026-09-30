@@ -67,7 +67,7 @@ function App() {
           <h2 className="section-title">About <span>Me</span></h2>
           <div className="card" style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
             <p style={{ fontSize: '1.25rem', marginBottom: '1.5rem', color: '#fff' }}>
-              I specialize in creating responsive, user-friendly web applications with HTML, CSS, and JavaScript.
+              I specialize in creating responsive, user-friendly web applications with React framework.
               I have a keen eye for design and functionality, ensuring seamless user experiences across devices and browsers.
             </p>
             <p>
