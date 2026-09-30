@@ -41,7 +41,12 @@ function App() {
       </div>
 
       <header>
-        <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <video className="hero-video" autoPlay loop muted playsInline>
+          <source src="https://cdn.pixabay.com/video/2020/05/25/40145-425126861_large.mp4" type="video/mp4" />
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-network-connection-background-27898-large.mp4" type="video/mp4" />
+        </video>
+        <div className="hero-overlay"></div>
+        <div className="container glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <div className="profile-pic-container">
             <img
               src="/profile.png"
