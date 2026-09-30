@@ -52,8 +52,8 @@ function App() {
           <h1>Md Mehedi Hasan</h1>
           <h2>Front-End Developer</h2>
           <p>
-            Hi! I'm Hasan, a passionate Front-End Developer with over 4 years of experience specializing in creating responsive,
-            user-friendly web applications. Currently building the future at DXEL Network.
+            Hi! I'm Hasan, a passionate Front-End Developer with over 11 years of experience specializing in creating responsive,
+            user-friendly web applications. Currently building the future at <a href="http://dxel.net" target="_blank" rel="noopener noreferrer">DXEL Network</a>.
           </p>
           <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center', marginTop: '2.5rem' }}>
             <a href="#about" className="btn btn-solid">Explore My Work</a>
@@ -111,10 +111,10 @@ function App() {
           <h2 className="section-title">Professional <span>Experience</span></h2>
           <div className="card" style={{ marginBottom: '2rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', marginBottom: '1rem' }}>
-              <h3 style={{ margin: 0, fontSize: '1.8rem' }}>Front-End Developer</h3>
+              <h3 style={{ margin: 0, fontSize: '1.8rem' }}>Founder & Front-End Developer</h3>
               <span style={{ background: 'var(--accent-secondary)', padding: '0.3rem 1rem', borderRadius: '30px', fontSize: '0.9rem', fontWeight: 'bold', color: '#fff' }}>2021 - Present</span>
             </div>
-            <p style={{ color: 'var(--accent-color)', fontWeight: '600', fontSize: '1.1rem' }}>DXEL Network</p>
+            <p style={{ color: 'var(--accent-color)', fontWeight: '600', fontSize: '1.1rem' }}><a href="http://dxel.net" target="_blank" rel="noopener noreferrer">DXEL Network</a></p>
             <p style={{ marginTop: '1rem' }}>Developing user-friendly web pages, optimizing applications for maximum speed, and designing mobile-based features. Ensuring high-quality graphic standards and brand consistency.</p>
           </div>
 
@@ -123,7 +123,7 @@ function App() {
               <h3 style={{ margin: 0, fontSize: '1.8rem' }}>Front-End Instructor</h3>
               <span style={{ background: 'var(--card-border)', padding: '0.3rem 1rem', borderRadius: '30px', fontSize: '0.9rem', fontWeight: 'bold' }}>2021 - 2022</span>
             </div>
-            <p style={{ color: 'var(--accent-color)', fontWeight: '600', fontSize: '1.1rem' }}>Digital Entrepreneur Hub</p>
+            <p style={{ color: 'var(--accent-color)', fontWeight: '600', fontSize: '1.1rem' }}><a href="https://de-hub.org/" target="_blank" rel="noopener noreferrer">Digital Entrepreneur Hub</a></p>
             <p style={{ marginTop: '1rem' }}>Instructed students on HTML, CSS, JavaScript, and modern frameworks to build real-world applications. Supported students in their learning journey and career preparation.</p>
           </div>
 
@@ -132,7 +132,7 @@ function App() {
               <h3 style={{ margin: 0, fontSize: '1.8rem' }}>Executive (IT)</h3>
               <span style={{ background: 'var(--card-border)', padding: '0.3rem 1rem', borderRadius: '30px', fontSize: '0.9rem', fontWeight: 'bold' }}>2019 - 2022</span>
             </div>
-            <p style={{ color: 'var(--accent-color)', fontWeight: '600', fontSize: '1.1rem' }}>Bijoy Media & Printing</p>
+            <p style={{ color: 'var(--accent-color)', fontWeight: '600', fontSize: '1.1rem' }}><a href="https://bijoymedia.com" target="_blank" rel="noopener noreferrer">Bijoy Media & Printing</a></p>
             <p style={{ marginTop: '1rem' }}>Managed IT operations, data security, network access, and troubleshooting. Established and implemented electronic data operations.</p>
           </div>
         </section>
