@@ -44,9 +44,9 @@ function App() {
         <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <div className="profile-pic-container">
             <img 
-              src="https://mehedi.dxel.net/images/slack05.jpg" 
+              src="/profile.png" 
               alt="Md Mehedi Hasan" 
-              className="profile-pic"
+              className="profile-pic glass-effect"
             />
           </div>
           <h1>Md Mehedi Hasan</h1>
@@ -142,7 +142,7 @@ function App() {
           <div className="card" style={{ textAlign: 'center', padding: '5rem 2rem' }}>
             <h3 style={{ fontSize: '2.5rem' }}>Ready to collaborate?</h3>
             <p style={{ margin: '1.5rem 0 2.5rem 0', fontSize: '1.2rem' }}>I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
-            <p style={{ fontSize: '1.5rem', fontWeight: '900', margin: '2rem 0', color: 'var(--text-primary)' }}>+880 1303 000 250</p>
+            <a href="https://wa.me/8801303000250" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.5rem', fontWeight: '900', margin: '2rem 0', display: 'block', color: 'var(--accent-color)', textDecoration: 'none' }}>+880 1303 000 250 (WhatsApp)</a>
             <a href="mailto:contact@milon.cc" className="btn btn-solid" style={{ transform: 'scale(1.1)' }}>Email Me</a>
           </div>
         </section>
