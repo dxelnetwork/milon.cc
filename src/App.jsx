@@ -57,7 +57,7 @@ function App() {
           </p>
           <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center', marginTop: '2.5rem' }}>
             <a href="#about" className="btn btn-solid">Explore My Work</a>
-            <a href="https://mehedi.dxel.net/images/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn">Download Resume</a>
+            <a href="https://dxel.net" target="_blank" rel="noopener noreferrer" className="btn">Visit My Company</a>
           </div>
         </div>
       </header>
