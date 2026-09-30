@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     document.title = "Md Mehedi Hasan (Milon) | Front-End Developer";
-    
+
     // Intersection Observer for scroll animations
     const observer = new IntersectionObserver(
       (entries) => {
@@ -43,16 +43,16 @@ function App() {
       <header>
         <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <div className="profile-pic-container">
-            <img 
-              src="/profile.png" 
-              alt="Md Mehedi Hasan" 
+            <img
+              src="/profile.png"
+              alt="Md Mehedi Hasan"
               className="profile-pic glass-effect"
             />
           </div>
           <h1>Md Mehedi Hasan</h1>
           <h2>Front-End Developer</h2>
           <p>
-            Hi! I'm Hasan, a passionate Front-End Developer with over 4 years of experience specializing in creating responsive, 
+            Hi! I'm Hasan, a passionate Front-End Developer with over 4 years of experience specializing in creating responsive,
             user-friendly web applications. Currently building the future at DXEL Network.
           </p>
           <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center', marginTop: '2.5rem' }}>
@@ -67,11 +67,11 @@ function App() {
           <h2 className="section-title">About <span>Me</span></h2>
           <div className="card" style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
             <p style={{ fontSize: '1.25rem', marginBottom: '1.5rem', color: '#fff' }}>
-              I specialize in creating responsive, user-friendly web applications with HTML, CSS, and JavaScript. 
+              I specialize in creating responsive, user-friendly web applications with HTML, CSS, and JavaScript.
               I have a keen eye for design and functionality, ensuring seamless user experiences across devices and browsers.
             </p>
             <p>
-              With strong problem-solving skills and attention to detail, I collaborate with designers and back-end 
+              With strong problem-solving skills and attention to detail, I collaborate with designers and back-end
               developers to deliver high-performance, accessible, and visually appealing applications.
             </p>
             <div style={{ marginTop: '3rem', display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap' }}>
@@ -117,16 +117,16 @@ function App() {
             <p style={{ color: 'var(--accent-color)', fontWeight: '600', fontSize: '1.1rem' }}>DXEL Network</p>
             <p style={{ marginTop: '1rem' }}>Developing user-friendly web pages, optimizing applications for maximum speed, and designing mobile-based features. Ensuring high-quality graphic standards and brand consistency.</p>
           </div>
-          
+
           <div className="card" style={{ marginBottom: '2rem' }}>
-             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', marginBottom: '1rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', marginBottom: '1rem' }}>
               <h3 style={{ margin: 0, fontSize: '1.8rem' }}>Front-End Instructor</h3>
               <span style={{ background: 'var(--card-border)', padding: '0.3rem 1rem', borderRadius: '30px', fontSize: '0.9rem', fontWeight: 'bold' }}>2021 - 2022</span>
             </div>
             <p style={{ color: 'var(--accent-color)', fontWeight: '600', fontSize: '1.1rem' }}>Digital Entrepreneur Hub</p>
             <p style={{ marginTop: '1rem' }}>Instructed students on HTML, CSS, JavaScript, and modern frameworks to build real-world applications. Supported students in their learning journey and career preparation.</p>
           </div>
-          
+
           <div className="card">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', marginBottom: '1rem' }}>
               <h3 style={{ margin: 0, fontSize: '1.8rem' }}>Executive (IT)</h3>
@@ -143,13 +143,13 @@ function App() {
             <h3 style={{ fontSize: '2.5rem' }}>Ready to collaborate?</h3>
             <p style={{ margin: '1.5rem 0 2.5rem 0', fontSize: '1.2rem' }}>I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
             <a href="https://wa.me/8801303000250" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.5rem', fontWeight: '900', margin: '2rem 0', display: 'block', color: 'var(--accent-color)', textDecoration: 'none' }}>+880 1303 000 250 (WhatsApp)</a>
-            <a href="mailto:contact@milon.cc" className="btn btn-solid" style={{ transform: 'scale(1.1)' }}>Email Me</a>
+            <a href="mailto:milon@dxel.net" className="btn btn-solid" style={{ transform: 'scale(1.1)' }}>Email Me</a>
           </div>
         </section>
       </main>
 
       <footer>
-        <p>&copy; {new Date().getFullYear()} Md Mehedi Hasan (Milon). All rights reserved. | <a href="https://milon.cc" style={{color: 'var(--accent-color)'}}>milon.cc</a></p>
+        <p>&copy; {new Date().getFullYear()} Md Mehedi Hasan (Milon). All rights reserved. | <a href="https://milon.cc" style={{ color: 'var(--accent-color)' }}>milon.cc</a></p>
       </footer>
     </div>
   );
