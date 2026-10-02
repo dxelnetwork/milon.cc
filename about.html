@@ -1,0 +1,1060 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- #keywords -->
+  <meta name="keywords"
+    content="Mehedi Hasan Milon, portfolio template, HTML portfolio, personal website, web developer template, responsive portfolio, freelancer portfolio, designer portfolio, developer resume, coding portfolio, creative portfolio website, personal portfolio Developer Portfolio HTML Template,Md Mehedi Hasan,DevPort - Developer Portfolio HTML Template" />
+  <!-- #description -->
+  <meta name="description"
+    content="Mehedi Hasan Milon, responsive developer portfolio HTML template designed for showcasing personal projects, skills, and achievements. Perfect for web developers, designers, and freelancers to create a professional online presence." />
+  <link rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/jpeg" />
+  <title>Mehedi Hasan Milon - CEO & Front-End Developer at DXEL Network</title>
+  <link href="assets/css/index.css" rel="stylesheet">
+</head>
+
+<body
+  class="text-gray-900 dark:text-gray-100 overflow-x-hidden">
+  <!-- Animated Background Elements -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+    <div
+      class="absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-r from-primary-400/30 to-accent-500/30 rounded-full blur-3xl animate-blob">
+    </div>
+    <div
+      class="absolute top-0 right-1/4 w-96 h-96 bg-gradient-to-r from-purple-400/30 to-pink-500/30 rounded-full blur-3xl animate-blob"
+      style="animation-delay: 2s"></div>
+    <div
+      class="absolute -bottom-32 left-1/2 w-96 h-96 bg-gradient-to-r from-blue-400/30 to-cyan-500/30 rounded-full blur-3xl animate-blob"
+      style="animation-delay: 4s"></div>
+    <div id="particles-container"></div>
+  </div>
+
+  <!-- Custom Cursors -->
+  <div id="cursor-dot" class="cursor-dot"></div>
+  <div id="cursor-outline" class="cursor-outline"></div>
+
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="index.html#home" class="group flex items-center gap-3 reveal-left">
+          <div
+            class="relative w-12 h-12 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center shadow-lg transition-all duration-300">
+            <img src="./assets/images/logo.jpg" alt="MH" class="w-full h-full object-cover rounded-xl" />
+          </div>
+          <div class="hidden xl:block">
+            <div class="text-xl font-black text-gray-900 dark:text-white group-hover:text-gradient transition-all">
+              Mehedi Hasan (Milon)</div>
+            <div class="text-xs text-gray-600 dark:text-gray-400">
+              CEO & Front-End Developer at DXEL Network
+            </div>
+          </div>
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden lg:flex items-center gap-1">
+          <a href="index.html"
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group">
+            Home
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
+          </a>
+          <a href="about.html"
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group">
+            About
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
+          </a>
+          <a href="services.html"
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group">
+            Services
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
+          </a>
+          <a href="projects.html"
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group">
+            Projects
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
+          </a>
+          <a href="blogs.html"
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group">
+            Blogs
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
+          </a>
+          <a href="contact.html"
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group">
+            Contact
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
+          </a>
+        </div>
+
+        <!-- Right Section -->
+        <div class="flex items-center gap-4">
+          <!-- Theme Toggle -->
+          <button id="theme-toggle"
+            class="flex w-10 h-10 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 transition-all duration-300 hover:scale-110 group cursor-pointer"
+            aria-label="Toggle theme">
+            <svg class="w-5 h-5 text-gray-700 dark:text-gray-300 group-hover:text-white transition-colors dark:hidden"
+              fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            </svg>
+            <svg class="w-5 h-5 text-gray-300 group-hover:text-white transition-colors hidden dark:block" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+          </button>
+
+          <!-- CTA Button -->
+          <a href="contact.html"
+            class="hidden lg:inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-primary-500/50 hover:scale-105 transition-all duration-300">
+            Contact Me
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+
+          <!-- Mobile Menu Toggle -->
+          <button id="mobile-menu-toggle"
+            class="lg:hidden menu-icon flex flex-col gap-1.5 w-10 h-10 items-center justify-center rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-primary-500 dark:hover:bg-primary-500 transition-colors cursor-pointer"
+            aria-label="Toggle menu">
+            <span class="w-6 h-0.5 bg-gray-700 dark:bg-gray-300 rounded-full"></span>
+            <span class="w-6 h-0.5 bg-gray-700 dark:bg-gray-300 rounded-full"></span>
+            <span class="w-6 h-0.5 bg-gray-700 dark:bg-gray-300 rounded-full"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+      class="lg:hidden fixed inset-0 bg-white dark:bg-gray-900 z-[999] transform translate-x-full transition-transform duration-300 min-h-screen overflow-y-auto">
+      <div class="flex flex-col h-full">
+        <div class="flex items-center justify-between p-6 border-b border-gray-200 dark:border-gray-800">
+          <a href="index.html#home" class="group flex items-center gap-3 reveal-left">
+            <div
+              class="relative w-12 h-12 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center shadow-lg group-hover:shadow-2xl group-hover:scale-110 transition-all duration-300">
+              <span class="text-2xl font-black text-white">MH</span>
+              <div
+                class="absolute inset-0 rounded-xl bg-gradient-to-br from-accent-500 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+            </div>
+            <div class="hidden xl:block">
+              <div class="text-xl font-black text-gray-900 dark:text-white group-hover:text-gradient transition-all">Md
+                Mehedi Hasan (Milon)</div>
+              <div class="text-xs text-gray-600 dark:text-gray-400">
+                CEO & Front-End Developer at DXEL Network
+              </div>
+            </div>
+          </a>
+          <button id="mobile-menu-close"
+            class="w-10 h-10 flex items-center justify-center rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-red-500 transition-colors cursor-pointer"
+            aria-label="Close menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <nav class="flex-1 flex flex-col gap-2 p-6 overflow-y-auto">
+          <a href="index.html"
+            class="mobile-nav-link px-6 py-4 text-lg font-semibold text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 hover:text-white rounded-xl transition-all">Home</a>
+          <a href="about.html"
+            class="mobile-nav-link px-6 py-4 text-lg font-semibold text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 hover:text-white rounded-xl transition-all">About</a>
+          <a href="services.html"
+            class="mobile-nav-link px-6 py-4 text-lg font-semibold text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 hover:text-white rounded-xl transition-all">Services</a>
+          <a href="projects.html"
+            class="mobile-nav-link px-6 py-4 text-lg font-semibold text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 hover:text-white rounded-xl transition-all">Projects</a>
+          <a href="blogs.html"
+            class="mobile-nav-link px-6 py-4 text-lg font-semibold text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 hover:text-white rounded-xl transition-all">Blogs</a>
+          <a href="contact.html"
+            class="mobile-nav-link px-6 py-4 text-lg font-semibold text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 hover:text-white rounded-xl transition-all">Contact</a>
+        </nav>
+        <div class="p-6 border-t border-gray-200 dark:border-gray-800">
+          <a href="contact.html"
+            class="flex items-center justify-center gap-2 w-full px-6 py-4 bg-gradient-to-r from-primary-600 to-accent-600 text-white font-bold rounded-xl hover:shadow-xl transition-all">
+            Contact Me Now
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Page Header -->
+  <section class="pt-30 md:pt-40 pb-8 md:pb-15 px-4 relative overflow-hidden">
+    <!-- Decorative background glow -->
+    <div
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-primary-500/10 blur-[120px] rounded-full pointer-events-none">
+    </div>
+
+    <div class="container mx-auto max-w-7xl relative z-10">
+      <div class="text-center reveal">
+        <div
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/50 dark:bg-gray-800/50 backdrop-blur-md border border-white/20 dark:border-gray-700/30 mb-4 md:mb-6 shadow-sm">
+          <span class="w-2 h-2 rounded-full bg-primary-500 animate-pulse"></span>
+          <span class="text-xs font-black uppercase tracking-[0.2em] text-gray-600 dark:text-gray-400">Discover My
+            Story</span>
+        </div>
+        <h2 class="page-heading">
+          About <span class="text-gradient">Myself</span>
+        </h2>
+        <p class="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto font-medium leading-relaxed">
+          I'm a
+          <span class="text-gray-900 dark:text-white font-bold">multi-disciplinary developer</span>
+          who blends technical precision with artistic vision to create
+          digital products that leave a lasting impact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Developer Profile Section (GitHub Style) -->
+  <section class="pb-16 md:pb-20 lg:pb-32 px-4 relative overflow-hidden">
+    <div class="container mx-auto max-w-7xl relative z-10">
+      <!-- Main Stats Card -->
+      <div class="reveal group h-full mb-16">
+        <div
+          class="p-4 md:p-8 lg:p-12 bg-white/70 dark:bg-[#0d1117] backdrop-blur-xl rounded-3xl shadow-2xl border border-white/20 dark:border-[#30363d] overflow-hidden relative">
+          <!-- Header -->
+          <div class="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6 mb-8 md:mb-12">
+            <div class="flex items-center gap-2 md:gap-4">
+              <div class="size-10 md:size-12 rounded-full overflow-hidden border-2 border-primary-500">
+                <img src="./assets/images/profile.jpg" alt="Md Mehedi Hasan" class="w-full h-full object-cover" />
+              </div>
+              <div>
+                <h4 class="md:text-lg font-bold text-gray-900 dark:text-white">
+                  github.com/dxelnetwork
+                </h4>
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 rounded-full bg-emerald-500"></div>
+                  <span class="text-xs text-emerald-500 font-bold uppercase tracking-wider">Active</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 md:gap-4 text-xs font-bold text-gray-500">
+              <span>Less</span>
+              <div class="flex gap-1.5">
+                <div class="w-3 h-3 rounded-sm bg-gray-100 dark:bg-gray-800"></div>
+                <div class="w-3 h-3 rounded-sm bg-emerald-900/40"></div>
+                <div class="w-3 h-3 rounded-sm bg-emerald-900/60"></div>
+                <div class="w-3 h-3 rounded-sm bg-emerald-500"></div>
+              </div>
+              <span>More</span>
+            </div>
+          </div>
+
+          <!-- Simulated Contribution Graph -->
+          <div class="overflow-x-auto pb-4 md:pb-6 mb-4 md:mb-6">
+            <div class="min-w-[800px]">
+              <div class="flex gap-4 text-[10px] text-gray-500 uppercase tracking-widest font-bold mb-4 ml-10">
+                <span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span>
+                <span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span>
+              </div>
+              <div class="flex gap-2">
+                <div class="flex flex-col gap-2.5 text-[10px] text-gray-500 font-bold pt-1">
+                  <span>Mon</span><span>Wed</span><span>Fri</span>
+                </div>
+                <div class="grid grid-flow-col grid-rows-7 gap-1.5 flex-1">
+                  <!-- This simulates the coding pattern shown in the image -->
+                  <!-- We'll use JS or just static classes to create the "CODING" pattern -->
+                  <!-- Generating a dense grid with some high intensity dots -->
+                  <script>
+                    const container = document.currentScript.parentElement;
+                    const columns = 52;
+                    const rows = 7;
+                    // High intensity pattern for "CODING"
+                    const pattern = [
+                      [2, 1],
+                      [3, 1],
+                      [4, 1],
+                      [5, 1],
+                      [6, 1], // C
+                      [2, 5],
+                      [3, 5],
+                      [4, 5],
+                      [5, 5],
+                      [6, 5], // O
+                      [2, 9],
+                      [3, 9],
+                      [4, 9],
+                      [5, 9],
+                      [6, 9], // More...
+                    ];
+                    for (let i = 0; i < columns * rows; i++) {
+                      const dot = document.createElement("div");
+                      const intensity =
+                        Math.random() > 0.7
+                          ? "bg-emerald-500"
+                          : Math.random() > 0.4
+                            ? "bg-emerald-900/60"
+                            : Math.random() > 0.2
+                              ? "bg-emerald-900/30"
+                              : "bg-gray-100 dark:bg-gray-800";
+                      dot.className = `w-3.5 h-3.5 rounded-sm transition-all hover:scale-125 ${intensity}`;
+                      container.appendChild(dot);
+                    }
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile Info -->
+          <div class="text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 text-gray-900 dark:text-white">
+              Md Mehedi Hasan
+            </h2>
+            <p class="text-lg md:text-xl font-bold text-primary-500 mb-4 md:mb-8 uppercase">
+              CEO & Front-End Developer at DXEL Network
+            </p>
+            <button
+              class="px-4 md:px-6 py-3 md:py-4 bg-[#21262d] dark:bg-[#21262d] text-white rounded-xl border border-white/10 flex items-center gap-2 md:gap-3 mx-auto hover:bg-[#30363d] transition-all group">
+              <span class="font-bold">Fork My Portfolio</span>
+              <span class="px-2 py-0.5 bg-[#30363d] rounded-md text-xs font-black">24</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-10">
+        <!-- Who I Am -->
+        <div class="reveal-left">
+          <div
+            class="p-4 md:p-6 lg:p-10 bg-white/70 dark:bg-[#0d1117] backdrop-blur-xl rounded-3xl border border-white/20 dark:border-[#30363d] h-full shadow-xl">
+            <div class="flex items-center gap-4 mb-5 md:mb-8">
+              <div class="w-8 h-8 rounded-full bg-emerald-500/20 flex items-center justify-center">
+                <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                    clip-rule="evenodd" />
+                </svg>
+              </div>
+              <h3 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-white uppercase tracking-tighter">
+                Who I Am
+              </h3>
+            </div>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-4 md:mb-6 lg:mb-10">
+              I'm a passionate developer with 11+ years of experience building
+              web applications and contributing to open source projects. I
+              specialize in creating clean, efficient, and maintainable code.
+            </p>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-4 md:mb-6 lg:mb-10">
+              When I'm not coding, you can find me exploring new technologies,
+              writing tech articles, or enjoying a fresh cup of coffee while
+              debugging complex problems.
+            </p>
+
+            <!-- Stats Row -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
+              <div
+                class="p-4 md:p-6 bg-gray-50 dark:bg-[#161b22] rounded-2xl text-center border border-transparent hover:border-emerald-500/30 transition-all">
+                <div class="text-2xl lg:text-3xl font-black text-emerald-500 mb-1">
+                  152
+                </div>
+                <div class="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center leading-tight">
+                  Repositories
+                </div>
+              </div>
+              <div
+                class="p-4 md:p-6 bg-gray-50 dark:bg-[#161b22] rounded-2xl text-center border border-transparent hover:border-emerald-500/30 transition-all">
+                <div class="text-2xl lg:text-3xl font-black text-emerald-500 mb-1">
+                  4.2k
+                </div>
+                <div class="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center leading-tight">
+                  Commits
+                </div>
+              </div>
+              <div
+                class="p-4 md:p-6 bg-gray-50 dark:bg-[#161b22] rounded-2xl text-center border border-transparent hover:border-emerald-500/30 transition-all">
+                <div class="text-2xl lg:text-3xl font-black text-emerald-500 mb-1">
+                  87
+                </div>
+                <div class="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center leading-tight">
+                  PRs Merged
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- My Toolbox -->
+        <div class="reveal-right">
+          <div
+            class="p-4 md:p-6 lg:p-10 bg-white/70 dark:bg-[#0d1117] backdrop-blur-xl rounded-3xl border border-white/20 dark:border-[#30363d] h-full shadow-xl">
+            <div class="flex items-center gap-4 mb-8">
+              <div class="w-8 h-8 rounded-full bg-primary-500/20 flex items-center justify-center">
+                <svg class="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <h3 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-white uppercase tracking-tighter">
+                My Toolbox
+              </h3>
+            </div>
+
+            <!-- Skill Bars -->
+            <div class="space-y-6 pt-6">
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Web Development</span>
+                  <span class="text-sm font-semibold text-primary-600 dark:text-primary-400">95%</span>
+                </div>
+                <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                  <div class="progress-bar h-full bg-gradient-to-r from-primary-500 to-accent-500 rounded-full"
+                    style="width: 95%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">UI/UX Design</span>
+                  <span class="text-sm font-semibold text-primary-600 dark:text-primary-400">90%</span>
+                </div>
+                <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                  <div class="progress-bar h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"
+                    style="width: 90%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Backend Development</span>
+                  <span class="text-sm font-semibold text-primary-600 dark:text-primary-400">88%</span>
+                </div>
+                <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                  <div class="progress-bar h-full bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full"
+                    style="width: 88%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Mobile Development</span>
+                  <span class="text-sm font-semibold text-primary-600 dark:text-primary-400">85%</span>
+                </div>
+                <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                  <div class="progress-bar h-full bg-gradient-to-r from-orange-500 to-red-500 rounded-full"
+                    style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tech Tags -->
+            <div class="flex flex-wrap gap-2.5 mt-6 lg:mt-10">
+              <span
+                class="px-5 py-2.5 bg-gray-100 dark:bg-[#161b22] text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg border border-transparent hover:border-emerald-500/50 transition-all">JavaScript</span>
+              <span
+                class="px-5 py-2.5 bg-gray-100 dark:bg-[#161b22] text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg border border-transparent hover:border-emerald-500/50 transition-all">React</span>
+              <span
+                class="px-5 py-2.5 bg-gray-100 dark:bg-[#161b22] text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg border border-transparent hover:border-emerald-500/50 transition-all">Node.js</span>
+              <span
+                class="px-5 py-2.5 bg-gray-100 dark:bg-[#161b22] text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg border border-transparent hover:border-emerald-500/50 transition-all">TypeScript</span>
+              <span
+                class="px-5 py-2.5 bg-gray-100 dark:bg-[#161b22] text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg border border-transparent hover:border-emerald-500/50 transition-all">TailwindCSS</span>
+              <span
+                class="px-5 py-2.5 bg-gray-100 dark:bg-[#161b22] text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg border border-transparent hover:border-emerald-500/50 transition-all">Python</span>
+              <span
+                class="px-5 py-2.5 bg-gray-100 dark:bg-[#161b22] text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg border border-transparent hover:border-emerald-500/50 transition-all">Docker</span>
+              <span
+                class="px-5 py-2.5 bg-gray-100 dark:bg-[#161b22] text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg border border-transparent hover:border-emerald-500/50 transition-all">Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience Timeline -->
+  <section class="py-16 md:py-20 lg:py-32 bg-gray-50/50 dark:bg-gray-800/20 px-4">
+    <div class="container mx-auto max-w-5xl">
+      <div class="text-center mb-8 md:mb-16 reveal">
+        <span
+          class="inline-block px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full text-sm font-semibold mb-2 md:mb-4">The
+          Journey</span>
+        <h2 class="sec-title">
+          Professional <span class="text-gradient">Milestones</span>
+        </h2>
+        <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          A track record of delivering excellence across diverse roles and
+          complex technical landscapes.
+        </p>
+      </div>
+
+      <div class="space-y-4 md:space-y-12 relative">
+        <!-- Timeline Vertical Line -->
+        <div
+          class="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-primary-500 via-accent-500 to-purple-500 hidden md:block opacity-30">
+        </div>
+
+        <!-- Experience 1 -->
+        <div class="reveal group relative">
+          <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+            <div class="md:w-1/2 md:text-right">
+              <div
+                class="p-5 md:p-8 bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-700 hover:border-primary-500 transition-all">
+                <span class="text-xs font-black text-primary-500 uppercase tracking-widest mb-2 block">2021 —
+                  PRESENT</span>
+                <h3 class="text-xl md:text-2xl font-bold mb-2">
+                  Senior Full Stack Developer
+                </h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed font-medium">
+                  Leading the development of enterprise-scale SaaS platforms
+                  and mentoring junior developers on modern best practices.
+                </p>
+              </div>
+            </div>
+            <div
+              class="hidden md:flex w-12 h-12 rounded-full bg-primary-500 text-white items-center justify-center font-black shadow-[0_0_20px_rgba(59,130,246,0.5)] z-10">
+              1
+            </div>
+            <div class="md:w-1/2"></div>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="reveal group relative" style="animation-delay: 0.1s">
+          <div class="flex flex-col md:flex-row-reverse items-center gap-4 md:gap-8">
+            <div class="md:w-1/2">
+              <div
+                class="p-5 md:p-8 bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-700 hover:border-accent-500 transition-all">
+                <span class="text-xs font-black text-accent-500 uppercase tracking-widest mb-2 block">2019 — 2021</span>
+                <h3 class="text-xl md:text-2xl font-bold mb-2">
+                  Web Solutions Architect
+                </h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed font-medium">
+                  Focused on high-performance architecture and infrastructure
+                  automation using AWS and Kubernetes.
+                </p>
+              </div>
+            </div>
+            <div
+              class="hidden md:flex w-12 h-12 rounded-full bg-accent-500 text-white items-center justify-center font-black shadow-[0_0_20px_rgba(244,63,94,0.5)] z-10">
+              2
+            </div>
+            <div class="md:w-1/2"></div>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="reveal group relative" style="animation-delay: 0.2s">
+          <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+            <div class="md:w-1/2 md:text-right">
+              <div
+                class="p-5 md:p-8 bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-700 hover:border-purple-500 transition-all">
+                <span class="text-xs font-black text-purple-500 uppercase tracking-widest mb-2 block">2017 — 2019</span>
+                <h3 class="text-xl md:text-2xl font-bold mb-2">
+                  Frontend Specialist
+                </h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed font-medium">
+                  Crafting pixel-perfect user interfaces and interactive
+                  prototypes for leading digital agencies.
+                </p>
+              </div>
+            </div>
+            <div
+              class="hidden md:flex w-12 h-12 rounded-full bg-purple-500 text-white items-center justify-center font-black shadow-[0_0_20px_rgba(168,85,247,0.5)] z-10">
+              3
+            </div>
+            <div class="md:w-1/2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Process -->
+  <section class="py-16 md:py-20 lg:py-32 px-4 overflow-hidden">
+    <div class="container mx-auto max-w-7xl">
+      <div class="text-center mb-8 md:mb-16 reveal">
+        <span
+          class="inline-block px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 rounded-full text-sm font-semibold mb-4">The
+          Workflow</span>
+        <h2 class="sec-title">
+          How I <span class="text-gradient">Work</span>
+        </h2>
+        <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          My step-by-step approach to turning complex ideas into seamless
+          digital experiences.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 xl:gap-12 relative">
+        <!-- Connector Line (Desktop) -->
+        <div
+          class="hidden lg:block absolute top-[60px] left-[10%] right-[10%] h-0.5 border-t-2 border-dashed border-gray-300 dark:border-gray-700 -z-10">
+        </div>
+
+        <!-- Step 1 -->
+        <div class="reveal group text-center">
+          <div class="relative mb-5 lg:mb-8">
+            <div
+              class="size-18 md:size-24 mx-auto bg-white dark:bg-gray-800 rounded-3xl shadow-xl flex items-center justify-center text-4xl font-black text-primary-500 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+              1
+            </div>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Discovery</h3>
+          <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+            Understanding your vision, business goals, and target audience to
+            build a solid strategic foundation.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="reveal group text-center" style="animation-delay: 0.1s">
+          <div class="relative mb-5 lg:mb-8">
+            <div
+              class="size-18 md:size-24 mx-auto bg-white dark:bg-gray-800 rounded-3xl shadow-xl flex items-center justify-center text-4xl font-black text-accent-500 group-hover:scale-110 group-hover:-rotate-3 transition-all duration-300">
+              2
+            </div>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Design</h3>
+          <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+            Crafting high-fidelity prototypes and user interfaces that are
+            both aesthetically stunning and intuitive.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="reveal group text-center" style="animation-delay: 0.2s">
+          <div class="relative mb-5 lg:mb-8">
+            <div
+              class="size-18 md:size-24 mx-auto bg-white dark:bg-gray-800 rounded-3xl shadow-xl flex items-center justify-center text-4xl font-black text-purple-500 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+              3
+            </div>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Development</h3>
+          <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+            Building with modern technologies, focusing on clean code,
+            performance, and cross-platform compatibility.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="reveal group text-center" style="animation-delay: 0.3s">
+          <div class="relative mb-5 lg:mb-8">
+            <div
+              class="size-18 md:size-24 mx-auto bg-white dark:bg-gray-800 rounded-3xl shadow-xl flex items-center justify-center text-4xl font-black text-green-500 group-hover:scale-110 group-hover:-rotate-3 transition-all duration-300">
+              4
+            </div>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Launch</h3>
+          <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+            Rigorous testing and deployment followed by post-launch support to
+            ensure your product thrives.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Values -->
+  <section class="py-16 md:py-20 lg:py-32 bg-gray-50 dark:bg-gray-800/50 px-4">
+    <div class="container mx-auto max-w-7xl">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
+        <div class="reveal-left">
+          <h2 class="sec-title">
+            Values That <span class="text-gradient">Drive Me</span>
+          </h2>
+          <p class="text-xl text-gray-600 dark:text-gray-400 mb-8 lg:mb-12">
+            My work is anchored in these principles, ensuring every line of
+            code adds real value to your vision.
+          </p>
+
+          <div class="space-y-5 lg:space-y-8">
+            <div class="flex gap-4 md:gap-6 max-sm:flex-wrap group">
+              <div
+                class="size-14 lg:size-16 rounded-2xl bg-primary-500/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <svg class="w-8 h-8 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold mb-2">
+                  Uncompromising Quality
+                </h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  I believe in doing things right the first time. Quality
+                  isn't just a goal; it's the standard for every project.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 md:gap-6 max-sm:flex-wrap group">
+              <div
+                class="size-14 lg:size-16 rounded-2xl bg-accent-500/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <svg class="w-8 h-8 text-accent-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold mb-2">Infinite Curiosity</h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  The tech world moves fast. I stay ahead by constantly
+                  exploring new frameworks, tools, and methodologies.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 md:gap-6 max-sm:flex-wrap group">
+              <div
+                class="size-14 lg:size-16 rounded-2xl bg-purple-500/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <svg class="w-8 h-8 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold mb-2">User-First Mentality</h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  Code is just a tool. The real focus is the human experience
+                  and solving actual problems for real people.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal-right">
+          <div
+            class="relative glass-effect p-8 lg:p-12 rounded-[2rem] overflow-hidden border border-white/20 dark:border-gray-700/30 group">
+            <div
+              class="absolute -top-20 -right-20 w-64 h-64 bg-primary-500/20 rounded-full blur-[80px] group-hover:bg-primary-500/30 transition-colors">
+            </div>
+            <div
+              class="absolute -bottom-20 -left-20 w-64 h-64 bg-accent-500/20 rounded-full blur-[80px] group-hover:bg-accent-500/30 transition-colors">
+            </div>
+            <blockquote class="relative">
+              <svg class="w-12 h-12 text-primary-500/20 mb-5 lg:mb-8" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+              <p
+                class="text-2xl lg:text-3xl font-serif italic text-gray-900 dark:text-white mb-6 lg:mb-10 leading-tight">
+                "Design is not just what it looks like and feels like. Design
+                is how it works."
+              </p>
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-0.5 bg-primary-500"></div>
+                <span class="text-gray-600 dark:text-gray-400 font-black tracking-widest uppercase">Mehedi Hasan
+                  Milon</span>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies & Interests -->
+  <section class="py-16 md:py-20 lg:py-32 px-4">
+    <div class="container mx-auto max-w-7xl">
+      <div class="text-center mb-8 md:mb-16 reveal">
+        <span
+          class="inline-block px-4 py-2 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 rounded-full text-sm font-semibold mb-2 md:mb-4">Life
+          Outside Work</span>
+        <h2 class="sec-title">
+          Beyond <span class="text-gradient">The Screen</span>
+        </h2>
+        <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          When I'm not crafting code, I'm usually exploring these passions
+          that keep me inspired and energized.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-8">
+        <!-- Hobby 1 -->
+        <div
+          class="h-[250px] sm:h-[300px] w-full reveal group relative aspect-square rounded-[2rem] overflow-hidden shadow-2xl hover-lift">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-blue-500 to-indigo-700 opacity-90 group-hover:opacity-100 transition-opacity">
+          </div>
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-white p-8 text-center">
+            <div
+              class="size-14 lg:size-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4 md:mb-6 backdrop-blur-md group-hover:scale-110 transition-transform">
+              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <h4 class="font-black text-2xl tracking-tight">Photography</h4>
+            <p class="text-white/80 text-sm mt-3 opacity-0 group-hover:opacity-100 transition-opacity">
+              Capturing moments through the lens.
+            </p>
+          </div>
+        </div>
+
+        <!-- Hobby 2 -->
+        <div
+          class="h-[250px] sm:h-[300px] w-full reveal group relative aspect-square rounded-[2rem] overflow-hidden shadow-2xl hover-lift"
+          style="animation-delay: 0.1s">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-700 opacity-90 group-hover:opacity-100 transition-opacity">
+          </div>
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-white p-8 text-center">
+            <div
+              class="size-14 lg:size-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4 md:mb-6 backdrop-blur-md group-hover:scale-110 transition-transform">
+              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+              </svg>
+            </div>
+            <h4 class="font-black text-2xl tracking-tight">
+              Music Production
+            </h4>
+            <p class="text-white/80 text-sm mt-3 opacity-0 group-hover:opacity-100 transition-opacity">
+              Creating beats and soundscapes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Hobby 3 -->
+        <div
+          class="h-[250px] sm:h-[300px] w-full reveal group relative aspect-square rounded-[2rem] overflow-hidden shadow-2xl hover-lift"
+          style="animation-delay: 0.2s">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-emerald-500 to-cyan-700 opacity-90 group-hover:opacity-100 transition-opacity">
+          </div>
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-white p-8 text-center">
+            <div
+              class="size-14 lg:size-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4 md:mb-6 backdrop-blur-md group-hover:scale-110 transition-transform">
+              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2 2 2 0 012 2v.65M18 20.41l-1.1-1.1a2 2 0 00-2.812 0l-.26.26a2 2 0 01-2.812 0l-1.1-1.1a2 2 0 00-2.812 0l-.26.26a2 2 0 01-2.812 0l-1.1-1.1a2 2 0 00-2.812 0L2 17.41M17 3.055V5a2 2 0 002 2h1a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945" />
+              </svg>
+            </div>
+            <h4 class="font-black text-2xl tracking-tight">World Travel</h4>
+            <p class="text-white/80 text-sm mt-3 opacity-0 group-hover:opacity-100 transition-opacity">
+              Exploring cultures and landscapes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Hobby 4 -->
+        <div
+          class="h-[250px] sm:h-[300px] w-full reveal group relative aspect-square rounded-[2rem] overflow-hidden shadow-2xl hover-lift"
+          style="animation-delay: 0.3s">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-orange-500 to-red-700 opacity-90 group-hover:opacity-100 transition-opacity">
+          </div>
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-white p-8 text-center">
+            <div
+              class="size-14 lg:size-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4 md:mb-6 backdrop-blur-md group-hover:scale-110 transition-transform">
+              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h4 class="font-black text-2xl tracking-tight">Digital Art</h4>
+            <p class="text-white/80 text-sm mt-3 opacity-0 group-hover:opacity-100 transition-opacity">
+              Experimenting with pixels and vectors.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="mt-12 lg:mt-20 text-center reveal">
+        <div
+          class="inline-block p-1 rounded-2xl bg-gradient-to-r from-primary-500 via-accent-500 to-purple-500 mb-5 md:mb-8">
+          <div class="px-5 md:px-8 py-5 md:py-10 rounded-xl bg-white dark:bg-gray-900 backdrop-blur-xl">
+            <h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+              Ready to start something
+              <span class="text-gradient">Amazing?</span>
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 mb-5 md:mb-9 max-w-xl mx-auto text-lg">
+              I'm currently available for new projects and collaborations.
+              Let's build something exceptional together.
+            </p>
+            <div class="flex flex-wrap justify-center gap-3 md:gap-4">
+              <a href="index.html#contact"
+                class="px-4 md:px-6 py-3 md:py-5 bg-gradient-to-r from-primary-600 to-accent-600 text-white font-black rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                Get In Touch
+              </a>
+              <a href="index.html#projects"
+                class="px-4 md:px-6 py-3 md:py-5 border-2 border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white font-black rounded-xl hover:border-primary-500 hover:scale-105 transition-all duration-300">
+                View My Work
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="relative bg-gray-900 text-white pt-10 md:pt-16 lg:pt-20 px-4 sm:px-6 lg:px-8">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div
+        class="absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-r from-primary-600/10 to-accent-600/10 rounded-full blur-3xl">
+      </div>
+      <div
+        class="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-to-r from-purple-600/10 to-pink-600/10 rounded-full blur-3xl">
+      </div>
+    </div>
+
+    <div class="container mx-auto max-w-7xl relative z-10">
+      <!-- Footer Top -->
+      <div class="grid grid-cols-12 gap-6 md:gap-12 pb-10 md:pb-16 lg:pb-20 border-b border-gray-800">
+        <!-- Brand Column -->
+        <div class="col-span-12 sm:col-span-6">
+          <div class="flex items-center gap-3 mb-3 md:mb-6">
+            <div
+              class="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center shadow-lg">
+              <img src="./assets/images/logo.jpg" alt="MH" class="w-full h-full object-cover rounded-xl" />
+            </div>
+            <div>
+              <div class="text-2xl font-black">Mehedi Hasan (Milon)</div>
+              <div class="text-sm text-gray-400">CEO & Front-End Developer at DXEL Network</div>
+            </div>
+          </div>
+          <p class="text-gray-400 leading-relaxed mb-6 max-w-md">
+            Creating exceptional digital experiences through innovative web
+            development and design solutions.
+          </p>
+          <div class="flex gap-3">
+            <a href="https://github.com/dxelnetwork" target="_blank"
+              class="group w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 transition-all duration-300 hover:scale-110 hover:shadow-lg"
+              aria-label="GitHub">
+              <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-white transition-colors"
+                fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/myselfhasan" target="_blank"
+              class="group w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-600 transition-all duration-300 hover:scale-110 hover:shadow-lg"
+              aria-label="LinkedIn">
+              <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-white transition-colors"
+                fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="https://advut365.blogspot.com" target="_blank"
+              class="group w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gradient-to-r hover:from-pink-500 hover:to-rose-500 transition-all duration-300 hover:scale-110 hover:shadow-lg"
+              aria-label="Blog">
+              <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-white transition-colors"
+                fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M16.5 0H7.5C3.36 0 0 3.36 0 7.5v9C0 20.64 3.36 24 7.5 24h9c4.14 0 7.5-3.36 7.5-7.5v-9C24 3.36 20.64 0 16.5 0zM17 18.25H7A2.25 2.25 0 0 1 4.75 16v-1.5A2.25 2.25 0 0 1 7 12.25h1.25V11.5H7A2.25 2.25 0 0 1 4.75 9.25V7.75A2.25 2.25 0 0 1 7 5.5h7.25a2.25 2.25 0 0 1 2.25 2.25v2.25H13v1h4A2.25 2.25 0 0 1 19.25 13v3a2.25 2.25 0 0 1-2.25 2.25z" />
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/@advut365s" target="_blank"
+              class="group w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gradient-to-r hover:from-red-500 hover:to-red-600 transition-all duration-300 hover:scale-110 hover:shadow-lg"
+              aria-label="YouTube">
+              <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-white transition-colors"
+                fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+            </a>
+            <a href="https://x.com/milonsday" target="_blank"
+              class="group w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gradient-to-r hover:from-gray-700 hover:to-gray-900 transition-all duration-300 hover:scale-110 hover:shadow-lg"
+              aria-label="Twitter">
+              <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-white transition-colors"
+                fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-span-6 sm:col-span-3">
+          <h4 class="text-lg font-bold mb-3 md:mb-6">Quick Links</h4>
+          <ul class="space-y-2 md:space-y-3">
+            <li>
+              <a href="index.html"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">Home</a>
+            </li>
+            <li>
+              <a href="about.html"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">About</a>
+            </li>
+            <li>
+              <a href="index.html#services"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">Services</a>
+            </li>
+            <li>
+              <a href="index.html#projects"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">Projects</a>
+            </li>
+            <li>
+              <a href="index.html#contact"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="col-span-6 sm:col-span-3">
+          <h4 class="text-lg font-bold mb-3 md:mb-6">Services</h4>
+          <ul class="space-y-2 md:space-y-3">
+            <li>
+              <a href="javascript:void(0)"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">Web
+                Development</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">UI/UX Design</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">Mobile Apps</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">Consulting</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)"
+                class="text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="py-4 md:py-8 flex flex-col-reverse md:flex-row items-center justify-between gap-4">
+        <p class="text-gray-400 text-center md:text-left">
+          &copy; 2026
+          <a href="javascript:void(0)" class="hover:text-white duration-300">milon.cc</a>
+          - All rights reserved.
+        </p>
+        <div class="flex gap-6">
+          <a href="privacy.html" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+          <a href="terms.html" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <button id="back-to-top"
+    class="fixed bottom-4 md:bottom-8 right-4 md:right-8 w-10 h-10 md:w-14 md:h-14 bg-gradient-to-r from-primary-600 to-accent-600 text-white rounded-full shadow-2xl flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:scale-110 z-40 cursor-pointer"
+    aria-label="Back to top">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+  </button>
+  <script defer src="index.js"></script>
+  <script defer src="consent.js"></script>
+</body>
+
+</html>
