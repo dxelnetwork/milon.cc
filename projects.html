@@ -690,9 +690,26 @@ html.dark .wave-path {
   <div id="google_translate_element" style="display:none;"></div>
   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <style>
-    /* Hide the Google Translate Toolbar */
-    iframe.skiptranslate { display: none !important; }
-    body { top: 0px !important; }
+    /* Hide all Google Translate elements, toolbars, and icons */
+    iframe.skiptranslate, 
+    .skiptranslate,
+    .goog-te-gadget-icon,
+    .goog-te-gadget-simple, 
+    .goog-te-banner-frame,
+    #goog-gt-tt, 
+    .VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+    .VIpgJd-ZVi9od-aZ2wEe-OiiCO,
+    .goog-te-spinner-pos, 
+    .goog-te-spinner-animation {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+    }
+
+    body {
+      top: 0px !important;
+      position: relative !important;
+    }
   </style>
   
 </body>
