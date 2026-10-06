@@ -119,6 +119,13 @@
 
         <!-- Right Section -->
         <div class="flex items-center gap-4">
+          
+          <!-- Language Switcher -->
+          <select class="lang-selector bg-transparent text-gray-700 dark:text-gray-300 font-medium focus:ring-0 focus:outline-none cursor-pointer">
+            <option value="en">EN</option>
+            <option value="pt">PT</option>
+          </select>
+          
           <!-- Theme Toggle -->
           <button id="theme-toggle"
             class="flex w-10 h-10 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 transition-all duration-300 hover:scale-110 group cursor-pointer"
@@ -582,6 +589,7 @@
   </button>
   <script defer src="index.js"></script>
   <script defer src="consent.js"></script>
+  <script defer src="i18n.js"></script>
 </body>
 
 </html>
