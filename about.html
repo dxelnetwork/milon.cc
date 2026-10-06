@@ -4,36 +4,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  
-  
-  
+
+
+
+
   <link rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/jpeg" />
-  
+
   <!-- SEO Keywords -->
-  <meta name="keywords" content="milon, mehedi hasan milon, md mehedi hasan, mehedi hasan, dxel ceo, dxel owner, founder of dxel, web developer, front-end developer portfolio" />
-  
+  <meta name="keywords"
+    content="milon, mehedi hasan milon, md mehedi hasan, mehedi hasan, dxel ceo, dxel owner, founder of dxel, web developer, front-end developer portfolio" />
+
   <!-- SEO Description -->
-  <meta name="description" content="Md Mehedi Hasan (Milon) is the CEO and Founder of DXEL Network. Explore the portfolio of a top-tier Front-End Developer with 11+ years of experience." />
-  
+  <meta name="description"
+    content="Md Mehedi Hasan (Milon) is the CEO and Founder of DXEL Network. Explore the portfolio of a top-tier Front-End Developer with 11+ years of experience." />
+
   <!-- Search Engine Crawlers -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="author" content="Md Mehedi Hasan" />
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://milon.cc/" />
   <meta property="og:title" content="Mehedi Hasan Milon – CEO & Front-End Developer at DXEL Network" />
-  <meta property="og:description" content="Md Mehedi Hasan (Milon) is the CEO and Founder of DXEL Network. Explore the portfolio of a top-tier Front-End Developer with 11+ years of experience." />
+  <meta property="og:description"
+    content="Md Mehedi Hasan (Milon) is the CEO and Founder of DXEL Network. Explore the portfolio of a top-tier Front-End Developer with 11+ years of experience." />
   <meta property="og:image" content="https://milon.cc/assets/images/profile.jpg" />
-  
+
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://milon.cc/" />
   <meta name="twitter:title" content="Mehedi Hasan Milon – CEO & Front-End Developer at DXEL Network" />
-  <meta name="twitter:description" content="Md Mehedi Hasan (Milon) is the CEO and Founder of DXEL Network. Explore the portfolio of a top-tier Front-End Developer with 11+ years of experience." />
+  <meta name="twitter:description"
+    content="Md Mehedi Hasan (Milon) is the CEO and Founder of DXEL Network. Explore the portfolio of a top-tier Front-End Developer with 11+ years of experience." />
   <meta name="twitter:image" content="https://milon.cc/assets/images/profile.jpg" />
-  
+
   <link rel="canonical" href="https://milon.cc/" />
 
   <title>Mehedi Hasan Milon - CEO & Front-End Developer at DXEL Network</title>
@@ -41,18 +45,213 @@
 </head>
 
 <body class="text-gray-900 dark:text-gray-100 overflow-x-hidden">
-  <!-- Animated Background Elements -->
-  <div class="fixed inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
-    <div
-      class="absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-r from-primary-400/30 to-accent-500/30 rounded-full blur-3xl animate-blob">
+  <!-- Smooth Color Gradation Wave Background -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10 transition-colors duration-500"
+    aria-hidden="true">
+
+    <style>
+      /* Fluid Gradient Background */
+      .fluid-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: #f8fafc;
+        transition: background 0.5s ease;
+      }
+
+      html.dark .fluid-bg {
+        background: #09090b;
+      }
+
+      .fluid-blob {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(90px);
+        opacity: 0.7;
+        animation: fluid-drift 20s infinite alternate ease-in-out;
+        mix-blend-mode: multiply;
+      }
+
+      html.dark .fluid-blob {
+        opacity: 0.5;
+        mix-blend-mode: screen;
+      }
+
+      /* Light mode vibrant pastels */
+      .blob-1 {
+        background: #3b82f6;
+        width: 60vw;
+        height: 60vw;
+        top: -10%;
+        left: -10%;
+        animation-duration: 22s;
+      }
+
+      .blob-2 {
+        background: #8b5cf6;
+        width: 70vw;
+        height: 70vw;
+        bottom: -20%;
+        right: -10%;
+        animation-duration: 26s;
+      }
+
+      .blob-3 {
+        background: #ec4899;
+        width: 50vw;
+        height: 50vw;
+        top: 30%;
+        left: 30%;
+        animation-duration: 18s;
+      }
+
+      .blob-4 {
+        background: #06b6d4;
+        width: 60vw;
+        height: 60vw;
+        top: -20%;
+        right: 20%;
+        animation-duration: 24s;
+      }
+
+      /* Dark mode deep neon */
+      html.dark .blob-1 {
+        background: #1d4ed8;
+      }
+
+      html.dark .blob-2 {
+        background: #6d28d9;
+      }
+
+      html.dark .blob-3 {
+        background: #be185d;
+      }
+
+      html.dark .blob-4 {
+        background: #0369a1;
+      }
+
+      @keyframes fluid-drift {
+        0% {
+          transform: translate(0, 0) scale(1) rotate(0deg);
+        }
+
+        33% {
+          transform: translate(15%, -10%) scale(1.1) rotate(45deg);
+        }
+
+        66% {
+          transform: translate(-10%, 15%) scale(0.9) rotate(-45deg);
+        }
+
+        100% {
+          transform: translate(5%, 5%) scale(1.05) rotate(15deg);
+        }
+      }
+
+      /* SVG Wave Animation */
+      .wave-container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30vh;
+        overflow: hidden;
+        line-height: 0;
+      }
+
+      .wave-svg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 200%;
+        height: 100%;
+        animation: wave-roll 15s linear infinite;
+        transform-origin: bottom;
+      }
+
+      .wave-svg.reverse {
+        animation: wave-roll-reverse 20s linear infinite;
+        opacity: 0.5;
+      }
+
+      .wave-path {
+        fill: rgba(255, 255, 255, 0.4);
+        transition: fill 0.5s ease;
+      }
+
+      html.dark .wave-path {
+        fill: rgba(0, 0, 0, 0.3);
+      }
+
+      @keyframes wave-roll {
+        0% {
+          transform: translateX(0) scaleY(1);
+        }
+
+        50% {
+          transform: translateX(-25%) scaleY(1.1);
+        }
+
+        100% {
+          transform: translateX(-50%) scaleY(1);
+        }
+      }
+
+      @keyframes wave-roll-reverse {
+        0% {
+          transform: translateX(-50%) scaleY(1.1);
+        }
+
+        50% {
+          transform: translateX(-25%) scaleY(1);
+        }
+
+        100% {
+          transform: translateX(0) scaleY(1.1);
+        }
+      }
+    </style>
+
+    <div class="fluid-bg">
+      <div class="fluid-blob blob-1"></div>
+      <div class="fluid-blob blob-2"></div>
+      <div class="fluid-blob blob-3"></div>
+      <div class="fluid-blob blob-4"></div>
     </div>
-    <div
-      class="absolute top-0 right-1/4 w-96 h-96 bg-gradient-to-r from-purple-400/30 to-pink-500/30 rounded-full blur-3xl animate-blob"
-      style="animation-delay: 2s"></div>
-    <div
-      class="absolute -bottom-32 left-1/2 w-96 h-96 bg-gradient-to-r from-blue-400/30 to-cyan-500/30 rounded-full blur-3xl animate-blob"
-      style="animation-delay: 4s"></div>
-    <div id="particles-container"></div>
+
+    <!-- Smooth Animated Waves -->
+    <div class="wave-container">
+      <!-- Back Wave -->
+      <svg class="wave-svg reverse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+        preserveAspectRatio="none">
+        <path class="wave-path"
+          d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,144C672,139,768,181,864,197.3C960,213,1056,203,1152,176C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+        <!-- Duplicate path for seamless looping -->
+        <path class="wave-path"
+          d="M1440,160L1488,176C1536,192,1632,224,1728,213.3C1824,203,1920,149,2016,144C2112,139,2208,181,2304,197.3C2400,213,2496,203,2592,176C2688,149,2784,107,2832,85.3L2880,64L2880,320L2832,320C2784,320,2688,320,2592,320C2496,320,2400,320,2304,320C2208,320,2112,320,2016,320C1920,320,1824,320,1728,320C1632,320,1536,320,1488,320L1440,320Z"
+          transform="translate(1440, 0)"></path>
+      </svg>
+
+      <!-- Front Wave -->
+      <svg class="wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path class="wave-path" style="opacity:0.8"
+          d="M0,96L60,112C120,128,240,160,360,149.3C480,139,600,85,720,80C840,75,960,117,1080,144C1200,171,1320,181,1380,186.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+        <!-- Duplicate path for seamless looping -->
+        <path class="wave-path" style="opacity:0.8"
+          d="M1440,96L1500,112C1560,128,1680,160,1800,149.3C1920,139,2040,85,2160,80C2280,75,2400,117,2520,144C2640,171,2760,181,2820,186.7L2880,192L2880,320L2820,320C2760,320,2640,320,2520,320C2400,320,2280,320,2160,320C2040,320,1920,320,1800,320C1680,320,1560,320,1500,320L1440,320Z"
+          transform="translate(1440, 0)"></path>
+      </svg>
+    </div>
+
+    <!-- Frosted Glass Overlay -->
+    <div class="absolute inset-0 bg-white/20 dark:bg-black/20 backdrop-blur-[60px] z-0 transition-colors duration-500">
+    </div>
   </div>
 
   <!-- Custom Cursors -->
@@ -81,40 +280,47 @@
         <!-- Desktop Menu -->
         <div class="hidden lg:flex items-center gap-1">
           <a href="index.html"
-            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span data-i18n="nav_home">Home</span><span
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span
+              data-i18n="nav_home">Home</span><span
               class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
           </a>
           <a href="about.html"
-            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span data-i18n="nav_about">About</span><span
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span
+              data-i18n="nav_about">About</span><span
               class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
           </a>
           <a href="services.html"
-            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span data-i18n="nav_services">Services</span><span
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span
+              data-i18n="nav_services">Services</span><span
               class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
           </a>
           <a href="projects.html"
-            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span data-i18n="nav_projects">Projects</span><span
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span
+              data-i18n="nav_projects">Projects</span><span
               class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
           </a>
           <a href="blogs.html"
-            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span data-i18n="nav_blogs">Blogs</span><span
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span
+              data-i18n="nav_blogs">Blogs</span><span
               class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
           </a>
           <a href="contact.html"
-            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span data-i18n="nav_contact">Contact</span><span
+            class="nav-link px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-all duration-300 relative group"><span
+              data-i18n="nav_contact">Contact</span><span
               class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-full transition-all duration-300"></span>
           </a>
         </div>
 
         <!-- Right Section -->
         <div class="flex items-center gap-4">
-          
+
           <!-- Language Switcher -->
-          <select class="lang-selector bg-transparent text-gray-700 dark:text-gray-300 font-medium focus:ring-0 focus:outline-none cursor-pointer">
+          <select
+            class="lang-selector bg-transparent text-gray-700 dark:text-gray-300 font-medium focus:ring-0 focus:outline-none cursor-pointer">
             <option value="en">EN</option>
             <option value="pt">PT</option>
           </select>
-          
+
           <!-- Theme Toggle -->
           <button id="theme-toggle"
             class="flex w-10 h-10 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gradient-to-r hover:from-primary-500 hover:to-accent-500 transition-all duration-300 hover:scale-110 group cursor-pointer"
@@ -133,7 +339,9 @@
 
           <!-- CTA Button -->
           <a href="contact.html"
-            class="hidden lg:inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-primary-500/50 hover:scale-105 transition-all duration-300"><span data-i18n="nav_cta">Contact Me</span><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            class="hidden lg:inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold rounded-xl hover:shadow-2xl hover:shadow-primary-500/50 hover:scale-105 transition-all duration-300"><span
+              data-i18n="nav_cta">Contact Me</span><svg class="w-4 h-4" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </a>
@@ -336,7 +544,8 @@
             </p>
             <button
               class="px-4 md:px-6 py-3 md:py-4 bg-[#21262d] dark:bg-[#21262d] text-white rounded-xl border border-white/10 flex items-center gap-2 md:gap-3 mx-auto hover:bg-[#30363d] transition-all group">
-              <span class="font-bold">Fork My Portfolio</span>
+              <a href="https://github.com/dxelnetwork/" target="_blank" class="font-bold">Fork My
+                Portfolio</a>
               <span class="px-2 py-0.5 bg-[#30363d] rounded-md text-xs font-black">24</span>
             </button>
           </div>
@@ -1081,9 +1290,15 @@
   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <style>
     /* Hide the Google Translate Toolbar */
-    iframe.skiptranslate { display: none !important; }
-    body { top: 0px !important; }
+    iframe.skiptranslate {
+      display: none !important;
+    }
+
+    body {
+      top: 0px !important;
+    }
   </style>
+
 </body>
 
 </html>
