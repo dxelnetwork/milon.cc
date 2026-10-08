@@ -152,7 +152,7 @@
         }
       }
 
-      /* SVG Wave Animation */
+            /* Seamless SVG Wave Animation */
       .wave-container {
         position: absolute;
         bottom: 0;
@@ -162,8 +162,8 @@
         overflow: hidden;
         line-height: 0;
       }
-
       .wave-svg {
+        display: flex;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -172,47 +172,24 @@
         animation: wave-roll 15s linear infinite;
         transform-origin: bottom;
       }
-
       .wave-svg.reverse {
         animation: wave-roll-reverse 20s linear infinite;
         opacity: 0.5;
       }
-
       .wave-path {
         fill: rgba(255, 255, 255, 0.4);
         transition: fill 0.5s ease;
       }
-
       html.dark .wave-path {
         fill: rgba(0, 0, 0, 0.3);
       }
-
       @keyframes wave-roll {
-        0% {
-          transform: translateX(0) scaleY(1);
-        }
-
-        50% {
-          transform: translateX(-25%) scaleY(1.1);
-        }
-
-        100% {
-          transform: translateX(-50%) scaleY(1);
-        }
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
       }
-
       @keyframes wave-roll-reverse {
-        0% {
-          transform: translateX(-50%) scaleY(1.1);
-        }
-
-        50% {
-          transform: translateX(-25%) scaleY(1);
-        }
-
-        100% {
-          transform: translateX(0) scaleY(1.1);
-        }
+        0% { transform: translateX(-50%); }
+        100% { transform: translateX(0); }
       }
     </style>
 
@@ -223,30 +200,27 @@
       <div class="fluid-blob blob-4"></div>
     </div>
 
-    <!-- Smooth Animated Waves -->
+        <!-- Seamless Smooth Animated Waves -->
     <div class="wave-container">
       <!-- Back Wave -->
-      <svg class="wave-svg reverse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
-        preserveAspectRatio="none">
-        <path class="wave-path"
-          d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,144C672,139,768,181,864,197.3C960,213,1056,203,1152,176C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-        <!-- Duplicate path for seamless looping -->
-        <path class="wave-path"
-          d="M1440,160L1488,176C1536,192,1632,224,1728,213.3C1824,203,1920,149,2016,144C2112,139,2208,181,2304,197.3C2400,213,2496,203,2592,176C2688,149,2784,107,2832,85.3L2880,64L2880,320L2832,320C2784,320,2688,320,2592,320C2496,320,2400,320,2304,320C2208,320,2112,320,2016,320C1920,320,1824,320,1728,320C1632,320,1536,320,1488,320L1440,320Z"
-          transform="translate(1440, 0)"></path>
-      </svg>
+      <div class="wave-svg reverse">
+        <svg viewBox="0 0 1440 320" style="width: 50%; height: 100%;" preserveAspectRatio="none">
+          <path class="wave-path" d="M0,160 C120,20 240,20 360,160 C480,300 600,300 720,160 C840,20 960,20 1080,160 C1200,300 1320,300 1440,160 L1440,320 L0,320 Z"></path>
+        </svg>
+        <svg viewBox="0 0 1440 320" style="width: 50%; height: 100%;" preserveAspectRatio="none">
+          <path class="wave-path" d="M0,160 C120,20 240,20 360,160 C480,300 600,300 720,160 C840,20 960,20 1080,160 C1200,300 1320,300 1440,160 L1440,320 L0,320 Z"></path>
+        </svg>
+      </div>
 
       <!-- Front Wave -->
-      <svg class="wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
-        <path class="wave-path" style="opacity:0.8"
-          d="M0,96L60,112C120,128,240,160,360,149.3C480,139,600,85,720,80C840,75,960,117,1080,144C1200,171,1320,181,1380,186.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-        </path>
-        <!-- Duplicate path for seamless looping -->
-        <path class="wave-path" style="opacity:0.8"
-          d="M1440,96L1500,112C1560,128,1680,160,1800,149.3C1920,139,2040,85,2160,80C2280,75,2400,117,2520,144C2640,171,2760,181,2820,186.7L2880,192L2880,320L2820,320C2760,320,2640,320,2520,320C2400,320,2280,320,2160,320C2040,320,1920,320,1800,320C1680,320,1560,320,1500,320L1440,320Z"
-          transform="translate(1440, 0)"></path>
-      </svg>
+      <div class="wave-svg">
+        <svg viewBox="0 0 1440 320" style="width: 50%; height: 100%;" preserveAspectRatio="none">
+          <path class="wave-path" style="opacity:0.8" d="M0,160 C120,60 240,60 360,160 C480,260 600,260 720,160 C840,60 960,60 1080,160 C1200,260 1320,260 1440,160 L1440,320 L0,320 Z"></path>
+        </svg>
+        <svg viewBox="0 0 1440 320" style="width: 50%; height: 100%;" preserveAspectRatio="none">
+          <path class="wave-path" style="opacity:0.8" d="M0,160 C120,60 240,60 360,160 C480,260 600,260 720,160 C840,60 960,60 1080,160 C1200,260 1320,260 1440,160 L1440,320 L0,320 Z"></path>
+        </svg>
+      </div>
     </div>
 
     <!-- Frosted Glass Overlay -->
@@ -808,7 +782,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
-            <a href="https://mehedi.dxel.net" target="_blank" download
+            <a href="https://cv.milon.cc" target="_blank" download
               class="inline-flex items-center gap-2 px-4 md:px-8 py-2 md:py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white font-bold rounded-xl border-2 border-gray-300 dark:border-gray-700 hover:border-primary-500 hover:scale-105 transition-all">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
